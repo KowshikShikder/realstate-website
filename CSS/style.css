@@ -4,13 +4,17 @@ body{
     font-family: 'Manrope', sans-serif;
 }
 
-/* font families */
-/* font-family: 'DM Sans', sans-serif;
-font-family: 'Inter', sans-serif;
-font-family: 'Manrope', sans-serif;
-font-family: 'Roboto', sans-serif; */
+
+a{
+    border-bottom: 0px;
+    text-decoration: none;
+}
 
 
+a:hover {
+    text-decoration:none; 
+    cursor:pointer;
+}
 
 /* Hero section Start */
 /* Hero section Start */
@@ -251,6 +255,7 @@ font-family: 'Roboto', sans-serif; */
 
 
 .hero-search-container button{
+    cursor: pointer;
     float: right;
     justify-self: center;
     align-self: center;
@@ -656,6 +661,7 @@ font-family: 'Roboto', sans-serif; */
 
 /* Best Deal Button */
 .view-all-button{
+    cursor: pointer;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -737,7 +743,6 @@ font-family: 'Roboto', sans-serif; */
 .best-deal-slide .slide-image{
     height: 300px;
     width: 370px;
-    /* width: 350px; */
     position: relative;
 }
 
@@ -818,10 +823,9 @@ font-family: 'Roboto', sans-serif; */
 .featured-listing-section{
     height: 800px;
     width: 90%;
-    background-color: #9672FF;
+    background-color: #F1FFFF;
     margin: auto;
     margin-top: 100px;
-    margin-bottom: 200px;
 }
 
 
@@ -872,8 +876,345 @@ font-family: 'Roboto', sans-serif; */
 .featured-listing-left-section .second-image{
     height: 278px;
     width: 410px;
-    margin-top: -130px;
+    margin-top: -110px;
     z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* right Section */
+.featured-listing-right-section{
+    width: 380px;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+
+
+/* title */
+.featured-listing-right-section h1{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 31px;
+    font-weight: 500;
+}
+
+
+
+/* text */
+.featured-listing-right-section p{
+    font-size: 16px;
+    margin-top: 35px;
+}
+
+
+
+
+/* Feature table */
+/* Feature table */
+.featured-description-table{
+    width: 100%;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.featured-description-table th{
+    text-align: left;
+    font-weight: bold;
+}
+
+.featured-description-table tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.featured-description-table tr:nth-child(3){
+    margin-top: 30px;
+}
+
+
+
+.featured-description-table td,
+.featured-description-table th{
+    width: 90px;
+}
+
+
+
+
+
+
+/* Feature Button */
+/* Feature Button */
+.book-button{
+    cursor: pointer;
+    padding: 10px 30px 10px 30px;
+    background-color: #F85A47;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: white;
+    letter-spacing: -0.4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Review Section  */
+/* Review Section  */
+/* Review Section  */
+.review-section{
+    height: 800px;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+
+.review-section h1{
+    font-size: 40PX;
+    font-weight: 500;
+    width: 570px;
+}
+
+
+.review-section .review-box-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+.review-box-container .review-box{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 367px;
+    width: 32%;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+}
+
+
+
+.review-box .review-star-container{
+    height: 17px;
+    margin-top: 40px;
+
+}
+
+.review-box .review-star-container span{
+    height: 17px;
+    width: 17px;
+}
+
+
+.review-box .review-text{
+    font-size: 16px;
+    height: 112;
+    width: 270;
+
+}
+
+
+.review-box .review-person-container{
+    display: flex;
+    height: 48px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.review-person-container .review-person-image{
+    height: 48px;
+    width: 48px;
+}
+
+.review-person-container .review-person-image img{ 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.review-person-container .review-person-text{
+    width: 160px;
+    margin-left: 20px;
+}
+
+
+.review-person-container .review-person-text h4{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    font-weight: 800;
+}
+
+.review-person-container .review-person-text h6{
+    font-size: 14px;
+    padding: 0;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+
+
+
+
+
+
+/* Review Box footer */
+/* Review Box footer */
+.review-box-footer{
+    display: grid;
+    grid-template-columns:65% 35%;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+
+
+.review-box-footer .partners-logo-container ul{
+    justify-content: space-around;
+    padding-right: 30px;
+}
+
+
+
+
+.review-box-footer .communication-container p{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    width: 311px;
+    letter-spacing: -0.4px;
+}
+
+
+.review-box-footer .communication-container p a{
+    color: #2CBDE7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* News Letter Section */
+/* News Letter Section */
+/* News Letter Section */
+.news-letter-section{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+
+.news-letter-section h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin:0;
+    padding: 0;
+}
+
+
+
+.news-letter-section h3{
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 0;
+}
+
+
+.news-letter-email-input{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    height: 75px; /* less */
+    width: 530px;
+    padding: 5px 10px 5px 10px;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.219);
+
+}
+
+
+.news-letter-email-input input{
+    height: 100%;
+    outline: none;
+    box-shadow: none;
+    border:0px;
+    padding-left: 10px;
+}
+
+.news-letter-email-input input::placeholder{ 
+    opacity: 0.4;
+}
+
+.news-letter-email-input button{
+    cursor: pointer;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #F85A47;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 20px;
+    border: 0px;
 }
 
 
@@ -899,27 +1240,24 @@ font-family: 'Roboto', sans-serif; */
 
 
 
+/* Footer Section */
+/* Footer Section */
+.footer-section{
+    display: grid;
+    width: 65%;
+    margin: auto;
+    height: 212px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top: 1px solid #DEDFE1;
+
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-section .footer-text{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    align-self: flex-end;
+    font-weight: bold;
+}
