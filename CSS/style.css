@@ -16,6 +16,10 @@ a:hover {
     cursor:pointer;
 }
 
+
+
+
+/* Hero section Start */
 /* Hero section Start */
 /* Hero section Start */
 .hero-section-container{
@@ -113,6 +117,7 @@ a:hover {
 
 
 
+/* Navigation Section Start */
 /* Navigation Section Start */
 .navigation-container{
     height: 32px;
@@ -212,6 +217,8 @@ a:hover {
 
 
 
+
+/* hero search section */
 .hero-search-container{
     display: flex;
     z-index: 100;
@@ -254,6 +261,8 @@ a:hover {
 
 
 
+
+/* Hero search button */
 .hero-search-container button{
     cursor: pointer;
     float: right;
@@ -268,6 +277,8 @@ a:hover {
     color: white;
     border-color:transparent;
 }
+
+
 
 
 
@@ -345,7 +356,6 @@ a:hover {
 
 /* Hero Footer section */
 /* Hero Footer section */
-
 .hero-partner-bottom{
     position: absolute;
     width: 60%;
@@ -887,17 +897,6 @@ a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* right Section */
 .featured-listing-right-section{
     width: 380px;
@@ -978,6 +977,17 @@ a:hover {
     color: white;
     letter-spacing: -0.4px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1102,6 +1112,21 @@ a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Review Box footer */
 /* Review Box footer */
 .review-box-footer{
@@ -1182,7 +1207,7 @@ a:hover {
 .news-letter-email-input{
     display: grid;
     grid-template-columns: 75% 25%;
-    height: 75px; /* less */
+    height: 75px;
     width: 530px;
     padding: 5px 10px 5px 10px;
     margin: auto;
