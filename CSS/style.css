@@ -8,6 +8,7 @@ body{
 a{
     border-bottom: 0px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 
