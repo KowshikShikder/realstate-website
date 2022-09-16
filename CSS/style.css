@@ -354,7 +354,6 @@ a:hover {
 
 
 
-
 /* Hero Footer section */
 /* Hero Footer section */
 .hero-partner-bottom{
@@ -561,13 +560,12 @@ a:hover {
     display: flex;
     justify-content: space-between;
     height: 10px;
-    width: 46%;
+    width: 40%;
     position: absolute;
     top: 190px;
     right: 0;
     left: 0;
     margin: auto;
-    
 }
 
 
@@ -743,11 +741,14 @@ a:hover {
 }
 
 
+
+
+/* Slide */
 .best-deal-slide{
     display: flex;
     justify-content: space-between;
-
 }
+
 
 
 
@@ -755,7 +756,22 @@ a:hover {
     height: 300px;
     width: 370px;
     position: relative;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.068);
+    transition: 0.3s;
 }
+
+
+
+/* hover effect */
+.slide-image:hover{
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.068);
+    transform: scale(1.01);
+}
+
+
+
+
+
 
 .best-deal-slide .slide-image:nth-child(1){
     margin-right: 10px;
@@ -862,9 +878,12 @@ a:hover {
 }
 
 
+
+
+
+
 .featured-listing-left-section div{
     margin: auto;
-    background-color: #F85A47;
 }
 
 
@@ -879,17 +898,42 @@ a:hover {
 
 .featured-listing-left-section .first-image{
     height: 364px;
-    width: 492px;
-
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.068);
+    transition: 0.3s;
 }
 
 
+
+/* hover effect */
+.featured-listing-left-section .first-image:hover{
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.068);
+    transform: scale(1.01);
+    z-index: 5;
+}
+
+
+
+
+
+/* Second Image */
 .featured-listing-left-section .second-image{
     height: 278px;
-    width: 410px;
+    width: 88%;
     margin-top: -110px;
     z-index: 2;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.068);
+    transition: 0.3s;
 }
+
+
+
+/* hover effect */
+.featured-listing-left-section .second-image:hover{
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.068);
+    transform: scale(1.01);
+}
+
 
 
 
@@ -1041,7 +1085,18 @@ a:hover {
     width: 32%;
     border: 1px solid #EBEBEB;
     border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.068);
+    transition: 0.3s;
 }
+
+
+
+/* hover effect */
+.review-box-container .review-box:hover{
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.068);
+    transform: scale(1.01);
+}
+
 
 
 
@@ -1184,6 +1239,7 @@ a:hover {
     margin: auto;
     text-align: center;
     padding-bottom: 100px;
+    background-color: #FBFCFC;
 }
 
 
@@ -1213,7 +1269,7 @@ a:hover {
     padding: 5px 10px 5px 10px;
     margin: auto;
     margin-top: 60px;
-    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.219);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.068);
 
 }
 
@@ -1239,7 +1295,7 @@ a:hover {
     color: white;
     font-size: 17px;
     font-weight: 500;
-    padding: 20px;
+    padding: 18px;
     border: 0px;
 }
 
